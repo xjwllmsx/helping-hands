@@ -1,0 +1,44 @@
+/* Universal */
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    font-size: 3.81rem;
+    font-weight: 700;
+    line-height: 4.50rem;
+    text-transform: capitalize;
+    text-align: center;
+    border: 0.06rem solid rgba(0, 73, 75, 1);
+    margin: 0;
+}
+
+h2 {
+    font-size: 3.00rem;
+    font-weight: 600;
+    line-height: 3.50rem;
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    background: rgba(0, 117, 119, 1);
+    border: 0.13rem solid rgba(0, 73, 75, 1);
+    border-radius: 2.50rem;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0.31rem 0.31rem 0.63rem rgba(0, 0, 0, 0.25);
+}
