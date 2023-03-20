@@ -47,3 +47,61 @@ button {
 a {
     text-decoration: none;
 }
+
+/* Top Nav */
+nav {
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 1);
+    width: 100%;
+    max-width: 90rem;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+nav .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 75rem;
+    padding: 0.94rem 0;
+}
+
+nav .row {
+    display: flex;
+    gap: 1.31rem;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.81rem;
+    color: rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0.63rem 0.75rem;
+    border-radius: 0.5rem;
+}
+
+.nav-links a:hover {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(0, 73, 75, 1);
+}
+
+.row button {
+    padding: 0.75rem 1.5rem;
+}
+
+.row button:hover {
+    background: rgba(0, 73, 75, 1);
+}
