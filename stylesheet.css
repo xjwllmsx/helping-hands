@@ -40,7 +40,7 @@ p {
     background: rgba(0, 117, 119, 1);
     border: 0.13rem solid rgba(0, 73, 75, 1);
     border-radius: 2.50rem;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(254, 254, 254, 1);
     box-shadow: 0.31rem 0.31rem 0.63rem rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
@@ -57,7 +57,7 @@ a {
 nav {
     display: flex;
     justify-content: center;
-    background: rgba(255, 255, 255, 1);
+    background: rgba(254, 254, 254, 1);
     width: 100%;
     max-width: 90rem;
     position: sticky;
@@ -99,7 +99,7 @@ nav .row {
 }
 
 .nav-links a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(254, 254, 254, 1);
     background: rgba(0, 73, 75, 1);
 }
 
@@ -117,7 +117,7 @@ header {
     background-size: cover;
     width: 100%;
     max-width: 90rem;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(254, 254, 254, 1);
 }
 
 header .wrapper {
