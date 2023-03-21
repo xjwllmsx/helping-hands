@@ -283,11 +283,12 @@ header button {
     max-width: 100%;
 }
 
-.step h3, p {
+.step h3 {
     text-align: center;
 }
 
 .step p {
+    text-align: center;
     margin-top: 0.38rem;
 }
 
