@@ -6,6 +6,7 @@ html {
 body {
     margin: 0;
     font-family: Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgba(254, 254, 254, 1);
 }
 
 h1 {
@@ -64,6 +65,7 @@ nav {
     position: sticky;
     z-index: 1;
     top: 0;
+    margin: 0 auto;
 }
 
 nav .wrapper {
@@ -118,6 +120,7 @@ header {
     width: 100%;
     max-width: 90rem;
     color: rgba(254, 254, 254, 1);
+    margin: 0 auto;
 }
 
 header .wrapper {
@@ -167,7 +170,8 @@ header button {
     align-items: center;
     width: 100%;
     max-width: 90rem;
-    background: rgba(254, 254, 254, 1)
+    background: rgba(254, 254, 254, 1);
+    margin: 0 auto;
 }
 
 .insurance .wrapper {
@@ -207,7 +211,8 @@ header button {
     align-items: center;
     width: 100%;
     max-width: 90rem;
-    background: rgba(0, 117, 119, 1)
+    background: rgba(0, 117, 119, 1);
+    margin: 0 auto;
 }
 
 .therapy-benefits .wrapper {
@@ -251,6 +256,7 @@ header button {
     width: 100%;
     max-width: 90rem;
     background: rgba(254, 254, 254, 1);
+    margin: 0 auto;
 }
 
 .how-it-works .wrapper {
@@ -305,6 +311,7 @@ header button {
     width: 100%;
     max-width: 90rem;
     background: rgba(0, 117, 119, 1);
+    margin: 0 auto;
 }
 
 .reviews .wrapper {
@@ -379,6 +386,7 @@ footer {
     width: 100%;
     max-width: 90rem;
     background: rgba(254, 254, 254, 1);
+    margin: 0 auto;
 }
 
 footer .wrapper {
