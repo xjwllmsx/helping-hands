@@ -106,3 +106,56 @@ nav .row {
 .row button {
     padding: 0.75rem 1.5rem;
 }
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/landing-page/header/header-bg.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    max-width: 90rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 75rem;
+    padding: 14.38rem 0;
+    gap: 3.81rem;
+}
+
+.sub-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.25rem;
+}
+
+.sub-header h2 {
+    -webkit-text-stroke: 0.063rem rgba(0, 73, 75, 1);
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4.50rem;
+}
+
+header button {
+    padding: 0.94rem 0;
+    width: 15.625rem;
+}
+
+.button-header {
+    font-size: 1.95rem;
+    line-height: 2.29rem;
+}
