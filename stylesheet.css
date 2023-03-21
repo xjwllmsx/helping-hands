@@ -159,3 +159,43 @@ header button {
     font-size: 1.95rem;
     line-height: 2.29rem;
 }
+
+/* Insurance we accept */
+.insurance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 90rem;
+    background: rgba(254, 254, 254, 1)
+}
+
+.insurance .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 75rem;
+    padding: 3rem;
+    gap: 2.25rem;
+}
+
+.insurance-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 3.29rem;
+}
+
+.insurance-logos img {
+    padding: 1.656rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.insurance-logos img:hover {
+    box-shadow: 0.25rem 0.31rem 0.5rem rgba(0, 0, 0, 0.53);
+}
