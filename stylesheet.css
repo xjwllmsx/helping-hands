@@ -242,3 +242,56 @@ header button {
     border-radius: 0.75rem;
     padding: 0.75rem;
 }
+
+/* How it works */
+.how-it-works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 90rem;
+    background: rgba(254, 254, 254, 1);
+}
+
+.how-it-works .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 75rem;
+    padding: 3rem 0;
+    gap: 2.25rem;
+}
+
+.how-it-works .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 19.44rem;
+}
+
+.step img {
+    max-width: 100%;
+}
+
+.step h3, p {
+    text-align: center;
+}
+
+.step p {
+    margin-top: 0.38rem;
+}
+
+.how-it-works button {
+    padding: 0.94rem 4.63rem;
+    font-size: 1.94rem;
+}
